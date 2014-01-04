@@ -1,8 +1,8 @@
-# ##Dependencies
-assert = require 'cassert'
-express = require "express" 
-
 module.exports = (env) ->
+  
+  # ##Dependencies
+  assert = env.require 'cassert'
+  express = env.require 'express' 
 
   # ##Filebrowser
   class FileBrowser extends env.plugins.Plugin
