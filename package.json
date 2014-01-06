@@ -1,8 +1,9 @@
 { "name": "pimatic-filebrowser",
-  "description": "filebrowser plugin for pimatic",
+  "description": "A simpe web file browser for a local directory.",
   "author": "Oliver Schneider <oliverschneider89+sweetpi@gmail.com> (http://sweetpi.de)",
   "main": "filebrowser.coffee",
   "files": [
+    "doc",
     "filebrowser.coffee",
     "README.md"
   ],
