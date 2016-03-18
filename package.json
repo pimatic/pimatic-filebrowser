@@ -2,10 +2,14 @@
   "name": "pimatic-filebrowser",
   "description": "A simpe web file browser for a local directory.",
   "author": "Oliver Schneider <oliverschneider89+sweetpi@gmail.com> (http://sweetpi.de)",
+  "license": "GPL-2.0",
   "main": "filebrowser.coffee",
+  "configSchema": "filebrowser-config-schema.coffee",
   "files": [
     "doc",
     "filebrowser.coffee",
+    "filebrowser-config-schema.coffee",
+    "LICENSE",
     "README.md"
   ],
   "version": "0.8.1",
