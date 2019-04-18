@@ -16,3 +16,5 @@ Configuration:
      }
 
 With this config you can browse your files in `/media/usb1` with `http://your-ip/files`.
+ Make sure you reboot pimatic after applying these settings or you will get 
+ a `Cannot GET /files` error message.
