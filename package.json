@@ -2,15 +2,18 @@
   "name": "pimatic-filebrowser",
   "description": "Pimatic plugin to provide a simple web file browser for a local directory.",
   "author": "Oliver Schneider <oliverschneider89+sweetpi@gmail.com> (http://sweetpi.de)",
+  "contributors": [
+    "Marcus Wittig <wittigmarcus@gmail.com>"
+  ],
   "license": "GPL-2.0",
   "main": "filebrowser.coffee",
   "configSchema": "filebrowser-config-schema.coffee",
   "files": [
-    "doc",
     "filebrowser.coffee",
     "filebrowser-config-schema.coffee",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "HISTORY.md"
   ],
   "version": "0.9.0",
   "homepage": "http://github.com/pimatic/pimatic",
@@ -18,14 +21,22 @@
     "type": "git",
     "url": "git://github.com/pimatic/pimatic-filebrowser.git"
   },
+  "bugs": {
+    "url": "https://github.com/pimatic/pimatic/issues"
+  },
   "dependencies": {
-    "serve-index": "^1.7.3"
+    "serve-index": "^1.9.1"
   },
   "peerDependencies": {
     "pimatic": "0.9.*"
   },
   "engines": {
-    "node": ">0.8.x",
-    "npm": ">1.1.x"
-  }
+    "node": ">=4",
+    "npm": ">=2"
+  },
+  "keywords": [
+    "pimatic",
+    "pimatic-plugin",
+    "filebrowser"
+  ]
 }
