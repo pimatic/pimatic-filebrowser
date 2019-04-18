@@ -1,6 +1,6 @@
 pimatic filebrowser plugin
 ===========================
-A simpe web file browser for a local directory.
+Pimatic plugin to provide a simple web file browser for a local directory.
 
 Configuration:
 --------------
