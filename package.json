@@ -15,7 +15,7 @@
     "README.md",
     "HISTORY.md"
   ],
-  "version": "0.9.1",
+  "version": "0.9.2",
   "homepage": "http://github.com/pimatic/pimatic",
   "repository": {
     "type": "git",
