@@ -17,5 +17,13 @@ module.exports = {
           directory:
             type: "string"
             description: "The absolute directory path, e.g., /media/usb1"
+          hidden:
+            type: "boolean"
+            description: "Display hidden (dot) files"
+            default: false
+          view:
+            enum: ["tiles", "details"]
+            description: "Display mode: tiles and details are available"
+            default: "tiles"
   }
 }
